@@ -1,4 +1,5 @@
-export PageBoard({}){
+
+export function PageBoard({name, location, speaker, type, time}){
   return (
     <li>
      <p>name:</p>
